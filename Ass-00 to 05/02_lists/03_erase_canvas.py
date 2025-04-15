@@ -17,7 +17,8 @@ def create_cells(canvas):
             row_cells.append(cell)
         cells.append(row_cells)
     return cells
-
+ 
+ #user mouse ya kayboard action, Tkinter us action ki info event object ki form mein bhejta hai
 def erase(event):
     eraser_x = event.x
     eraser_y = event.y
